@@ -1,0 +1,37 @@
+a{
+	color:#999;	
+}
+a:hover{
+	color:#EEE;
+}
+body{
+	color:#222;
+	background:#444 url(../../images/style1/bg.gif) repeat center center;
+}
+#footer{
+	color:#AAA;
+}
+#word {
+	color:#CCC;
+	text-shadow:#333 3px 3px 2px;
+}
+.subject{
+	color:#BBB;
+	text-shadow:#333 3px 3px 2px;
+}
+.description{
+	border-left:1px solid #333;
+}
+.description span{
+	color:#BBB;
+}
+#links {
+	border-bottom:1px dashed #333;
+	border-top:1px dashed #333;
+}
+.bar-left{
+	border:1px solid #333;	
+}
+ul.bar-left li.gap{
+	border-top:1px solid #333;
+}

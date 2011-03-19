@@ -1,0 +1,37 @@
+a{
+	color:#1F945A;	
+}
+a:hover{
+	color:#54AE81;
+}
+body{
+	color:#555;
+	background:#FFF url(../../images/style2/bg.png) repeat-x top center;
+}
+#footer{
+	color:#AAA;
+}
+#word {
+	color:#222;
+	text-shadow:#ddd 2px 2px 1px;
+}
+.subject{
+	color:#222;
+	text-shadow:#ddd 2px 2px 1px;
+}
+.description{
+	border-left:1px solid #333;
+}
+.description span{
+	color:#D9A964;
+}
+#links {
+	border-bottom:1px dashed #333;
+	border-top:1px dashed #333;
+}
+.bar-left{
+	border:1px solid #1F945A;	
+}
+ul.bar-left li.gap{
+	border-top:1px solid #1F945A;
+}

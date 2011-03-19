@@ -1,0 +1,129 @@
+/*
+verison: beta
+author: Joelson de Abreu
+email: joelsondeabreu@gmail.com
+website: www.joelsondeabreu.com
+*/
+@import "reset.css";
+a{
+	text-decoration:underline;
+}
+body {
+	text-align: center; 
+  min-width: 920px;
+}
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-size: 2.0em;
+  font-weight: normal;
+}
+h3{
+	font-size:1.4em;
+}
+img{
+	position:relative;
+	top:3px;
+}
+#header {
+	height:180px;
+}
+#wrapper{
+  width: 85%;
+  margin:0 auto; 
+  text-align: left;
+}
+#header h1{
+	margin:0;
+	position:relative;
+  left:-100000px;
+}
+#footer {
+  padding: 1px 20px;
+  font-size:11px;
+  text-align:center;
+  clear: both;
+}
+#word {
+	float:left;
+	width:600px;
+	position:relative;
+	bottom:10px;
+	left:12%;
+	font-weight:bold;
+	font-style:italic;
+	font-size:1.2em;
+	text-align:center;
+}
+.content {
+  width:100%; 
+  float:left;
+  padding:30px 0;
+}
+.subject {
+	float:left;
+	width:20%;
+	font-weight:bold;
+	font-style:italic;
+	font-size:1.5em;
+	text-align:center;
+}
+.description {
+	float:left;
+	width:77%;
+	padding-left:10px;
+}
+.description span{
+	float:right;
+	font-style:italic;
+	font-weight:normal;
+	font-size:.8em;
+}
+
+
+ul.bar-left{
+	position:absolute;
+  font-size:.9em;
+	list-style:none;
+	float:right;
+	right:0;
+	-webkit-border-radius:0 0 0 10px;
+  -moz-border-radius:0 0 0 15px;
+  -khtml-border-radius:0 0 0 10px;
+  border-radius:0 0 0 10px;
+}
+ul.bar-left a{
+  padding: 0 1em;
+  line-height:4.2em;
+  text-decoration:none;
+  display: block;	
+}
+
+
+#linksTitle ul{
+	list-style:none;
+	float:left;
+	width:100%;
+	font-weight:bold;
+	font-size:.9em;
+	padding:0.5em 0;
+	text-align:center;
+}
+#linksTitle ul li{
+	float:left;
+	display:block;
+	width:24.9%;
+}
+#links{
+	float:left;
+	width:100%;
+	font-size:.9em;
+	padding:0.5em 0;
+}
+#links ul{
+	text-align:center;
+	list-style:none;
+	float:left;
+	width:24.9%;
+}
